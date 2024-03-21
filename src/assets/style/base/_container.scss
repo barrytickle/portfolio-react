@@ -1,0 +1,30 @@
+.container{
+    width:100%;
+    margin:0 auto;
+    padding:0 25px;
+
+    @include largeMobile{
+        max-width: 90%;
+        padding:0;
+    }
+
+    @include tablet{
+        // max-width: 90%;
+    }
+
+    @include smallDesktop{
+        max-width: 960px;
+    }
+
+    @include desktop {
+        max-width: 1140px;
+    }
+
+    @include medDesktop{
+        max-width: 1260px;
+    }
+
+    @include largeDesktop{
+        max-width: 1320px;
+    }
+}
