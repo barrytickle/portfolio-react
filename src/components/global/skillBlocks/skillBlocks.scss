@@ -1,0 +1,29 @@
+@import '../../../assets/style/base/breakpoints.scss';
+
+
+.skill-block-group{
+    flex-direction: column;
+    >.row{
+        @include tablet{
+            margin-top:2rem;
+        }
+        > .skill-block{
+            width:100%;
+            margin-top: 1rem;
+            text-align: left;
+            
+
+            @include tablet{
+                width:30%;
+                margin-top:0;
+                margin-right:3%;
+
+                &:last-child{
+                    margin-right:0;
+                }
+                
+            }
+
+        }
+    }
+}
