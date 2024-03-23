@@ -5,10 +5,10 @@ function SkillBlock(props){
 
     return (
         <div className="skill-block bg-opaque-green">
-            <div class="skill-block--header">
+            <div className="skill-block--header">
                 <img src={props.icon}/>
             </div>
-            <div class="skill-block--footer">
+            <div className="skill-block--footer">
                 <h3>{props.title}</h3>
                 <p>{props.content}</p>
             </div>
