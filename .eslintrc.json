@@ -1,0 +1,6 @@
+{
+  "extends": ["jf-experimentation"],
+  "rules": {
+    "no-unused-vars": ["error", { "varsIgnorePattern": "jfExperiment" }]
+  }
+}
