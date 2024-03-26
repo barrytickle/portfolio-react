@@ -8,7 +8,7 @@ function SkillBlocks(props){
     console.log(props);
     return (
         <div className="skill-block-group container">
-            <ThinAndBoldTitle thin="I do a lot of things," bold="Here are the services I can provide for you" centered={true}/>
+            <ThinAndBoldTitle thin="I offer diverse " bold="Services to you" centered={true}/>
             <div className="row center-xs">
                 {props.children}
             </div>

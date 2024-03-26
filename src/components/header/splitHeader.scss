@@ -8,6 +8,7 @@
     flex-direction: column-reverse;
     justify-content: flex-end;
     align-items: center;
+    padding-top:120px;
 
     &+section{
         border-top: 1px solid transparent !important;
@@ -16,6 +17,7 @@
 
     @include tablet{
         min-height: auto;
+        padding-top:0;
     }
 
     @include smallDesktop{
@@ -32,19 +34,11 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        
-        // @include tablet{
-        //     padding-right:40%;
-        //     margin:0;
-        // }
+            
         @include smallDesktop{
-            padding-right:40%;
-            // align-items: center;
+            max-width: 480px;
         }
 
-        @include desktop{
-            padding-right: 50%;
-        }
 
         h1{
             
@@ -83,13 +77,9 @@
             right:0;
             height: 100%;
             margin-top:0;
-            // width:30%;
             width: 40%;
         }
 
-
-        @include smallDesktop{
-        }
         @include desktop{
             width: 50%;
         }

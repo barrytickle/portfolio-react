@@ -3,6 +3,10 @@
 
 .skill-block-group{
     flex-direction: column;
+
+    h2{
+        margin-bottom: 4rem;
+    }
     >.row{
         @include tablet{
             margin-top:2rem;
