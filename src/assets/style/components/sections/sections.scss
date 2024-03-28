@@ -1,5 +1,33 @@
-section{
-    &.section--large{
-        padding:10rem 0;
+section {
+  &.section--large {
+    padding: 10rem 0;
+  }
+
+  &.section-split {
+    h2 {
+      width: 100%;
     }
+    > .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      > div {
+        width: 49%;
+      }
+    }
+
+    .section-half {
+      &--image {
+        max-width: 450px;
+        height: 550px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      &--content {
+      }
+    }
+  }
 }

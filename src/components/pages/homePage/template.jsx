@@ -1,4 +1,5 @@
 import GallerySlider from "../../global/gallerySlider/gallerySlider";
+import DarkSection from "../../global/layouts/backgrounds/darkSection";
 import MediaText from "../../global/mediaText/mediaText";
 import SkillBlock from "../../global/skillBlocks/skillBlock";
 import SkillBlocks from "../../global/skillBlocks/skillBlocks";
@@ -76,6 +77,22 @@ function HomePage() {
           </MediaText>
         </div>
       </section>
+      <DarkSection additionalCSS={"section--large section-split"}>
+        <div className="container">
+          <h2>About Me</h2>
+          <div
+            className="section-half--image"
+            style={{ backgroundImage: `url('/public/assets/images/profile-picture-two.png')` }}></div>
+          <div className="section-half--content">
+            <p>
+              Hello, I'm Barry I'm a web developer based in Newton-Le-Willows, Merseyside. With courses to back up the
+              experience, I am looking to help local businesses by providing them with an online presence. My designs
+              and my builds represent my current abilities to provide you with a professional and fantastic looking
+              website to reach out to your customers.
+            </p>
+          </div>
+        </div>
+      </DarkSection>
     </>
   );
 }

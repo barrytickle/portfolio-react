@@ -1,2 +1,10 @@
-$green:#1d4b40;
-$grey:#555;
+$green: #1d4b40;
+$grey: #555;
+
+.bg-dark {
+  background: #000;
+
+  * {
+    color: #fff;
+  }
+}
